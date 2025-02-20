@@ -179,9 +179,9 @@ async function generateFakeData(size) {
 }
 
 async function setup(size) {
-  await database.sync({ force: true });
+  // await database.sync({ force: true });
   await setupUser();
-  await generateFakeData(size);
+  // await generateFakeData(size);
 }
 
 config();
