@@ -30,7 +30,7 @@
     "db-setup": "node api/database/db.dev.setup.js",
     "start": "node server.js",
     "dev": "concurrently \"nodemon server.js\" \"vite --host\"",
-    "build": "vite build",
+    "build": "npx vite build",
     "test": "vitest",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "concurrently \"node server.js\" \"vite preview\""
