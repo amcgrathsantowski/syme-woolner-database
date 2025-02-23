@@ -10,6 +10,7 @@ export default defineConfig({
     outDir: './public/dist',
     emptyOutDir: true
   },
+  base: '/public/dist/',
   server: {
     port: 3000
   }
