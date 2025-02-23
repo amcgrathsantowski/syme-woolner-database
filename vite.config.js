@@ -7,7 +7,7 @@ import pwaConfig from './pwa.config';
 export default defineConfig({
   plugins: [react(), VitePWA(pwaConfig)],
   build: {
-    outDir: './src/public/dist',
+    outDir: './public/dist',
     emptyOutDir: true
   },
   server: {
