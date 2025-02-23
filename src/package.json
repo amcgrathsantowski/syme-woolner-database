@@ -81,6 +81,7 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.12.1",
     "sequelize": "^6.32.0",
+    "syme-woolner": "file:..",
     "vite": "^6.1.1",
     "winston": "^3.9.0",
     "winston-daily-rotate-file": "^4.7.1",
