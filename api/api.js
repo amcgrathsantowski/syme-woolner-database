@@ -3,7 +3,7 @@ import express from 'express';
 // import cors from 'cors';
 import cookieParser from 'cookie-parser';
 import helmet from 'helmet';
-import { join } from 'path';
+import path, { join } from 'path';
 import multer from 'multer';
 
 import {
@@ -30,6 +30,8 @@ import { getNetworkIP, Logger, __dirname } from './utils/index.js';
 config();
 
 const app = express();
+
+path.join(process.cwd(), 'public', 'dist', 'index.html');
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
